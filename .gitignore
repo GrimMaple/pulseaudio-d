@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/pulseaudio-d
+pulseaudio-d.so
+pulseaudio-d.dylib
+pulseaudio-d.dll
+pulseaudio-d.a
+pulseaudio-d.lib
+pulseaudio-d-test-*
+*.exe
+*.o
+*.obj
+*.lst
+dub.selections.json

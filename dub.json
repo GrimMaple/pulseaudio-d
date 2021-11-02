@@ -1,0 +1,10 @@
+{
+    "authors": [
+        "Grim Maple"
+    ],
+    "copyright": "Copyright © 2021, Grim Maple",
+    "description": "Static bindings to libpulse (PulseAudio)",
+    "license": "LGPL-3.0",
+    "name": "pulseaudio-d",
+    "targetType": "sourceLibrary"
+}
