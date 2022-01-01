@@ -1,5 +1,7 @@
 module pulse.volume;
 
+version(linux):
+
 import core.stdc.stdint;
 
 import pulse.channelmap;

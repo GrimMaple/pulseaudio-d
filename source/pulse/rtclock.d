@@ -1,5 +1,7 @@
 module pulse.rtclock;
 
+version(linux):
+
 import pulse.sample;
 
 extern (C):

@@ -1,5 +1,7 @@
 module pulse.mainloop;
 
+version(linux):
+
 import core.stdc.config;
 
 import pulse.mainloopapi;

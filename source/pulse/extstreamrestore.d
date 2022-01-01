@@ -1,5 +1,7 @@
 module pulse.extstreamrestore;
 
+version(linux):
+
 import pulse.channelmap;
 import pulse.volume;
 import pulse.context;

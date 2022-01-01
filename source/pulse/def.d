@@ -1,5 +1,7 @@
 module pulse.def;
 
+version(linux):
+
 import core.sys.posix.sys.select;
 
 import pulse.sample;

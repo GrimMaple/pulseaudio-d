@@ -1,5 +1,7 @@
 module pulse.simple;
 
+version(linux):
+
 import pulse.channelmap;
 import pulse.sample;
 import pulse.def;

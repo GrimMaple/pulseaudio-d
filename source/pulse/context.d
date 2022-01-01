@@ -1,5 +1,7 @@
 module pulse.context;
 
+version(linux):
+
 import pulse.proplist;
 import pulse.mainloopapi;
 import pulse.def;

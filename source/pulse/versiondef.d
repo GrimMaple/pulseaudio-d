@@ -1,5 +1,7 @@
 module pulse.versiondef;
 
+version(linux):
+
 extern (C):
 
 /*-*-C-*-*/

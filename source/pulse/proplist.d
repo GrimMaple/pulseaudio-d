@@ -1,5 +1,7 @@
 module pulse.proplist;
 
+version(linux):
+
 extern (C):
 
 /***

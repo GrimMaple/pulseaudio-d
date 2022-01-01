@@ -1,5 +1,7 @@
 module pulse.format;
 
+version(linux):
+
 import pulse.proplist;
 import pulse.sample;
 import pulse.channelmap;

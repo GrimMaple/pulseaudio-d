@@ -1,5 +1,7 @@
 module pulse.error;
 
+version(linux):
+
 extern (C):
 
 /***

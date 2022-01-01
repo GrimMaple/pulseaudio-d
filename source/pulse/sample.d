@@ -1,5 +1,7 @@
 module pulse.sample;
 
+version(linux):
+
 import core.stdc.config;
 
 extern (C):

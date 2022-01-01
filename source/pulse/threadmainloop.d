@@ -1,5 +1,7 @@
 module pulse.threadmainloop;
 
+version(linux):
+
 import pulse.mainloopapi;
 
 extern (C):

@@ -1,5 +1,7 @@
 module pulse.xmalloc;
 
+version(linux):
+
 extern (C):
 
 /***

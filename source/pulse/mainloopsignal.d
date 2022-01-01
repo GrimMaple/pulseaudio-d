@@ -1,5 +1,7 @@
 module pulse.mainloopsignal;
 
+version(linux):
+
 import pulse.mainloopapi;
 
 extern (C):

@@ -1,5 +1,7 @@
 module pulse.extdevicerestore;
 
+version(linux):
+
 import pulse.def;
 import pulse.operation;
 import pulse.context;

@@ -1,5 +1,7 @@
 module pulse.channelmap;
 
+version(linux):
+
 import core.stdc.config;
 
 import pulse.sample;

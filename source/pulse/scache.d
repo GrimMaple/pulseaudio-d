@@ -1,5 +1,7 @@
 module pulse.scache;
 
+version(linux):
+
 import pulse.context;
 import pulse.stream;
 import pulse.context;

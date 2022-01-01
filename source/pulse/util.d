@@ -1,5 +1,7 @@
 module pulse.util;
 
+version(linux):
+
 import core.stdc.config;
 
 extern (C):

@@ -1,5 +1,7 @@
 module pulse.stream;
 
+version(linux):
+
 import pulse.proplist;
 import pulse.context;
 import pulse.sample;

@@ -1,5 +1,7 @@
 module pulse.operation;
 
+version(linux):
+
 import pulse.def;
 
 extern (C):

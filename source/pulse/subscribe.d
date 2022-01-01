@@ -1,5 +1,7 @@
 module pulse.subscribe;
 
+version(linux):
+
 import pulse.context;
 import pulse.operation;
 import pulse.def;

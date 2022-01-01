@@ -1,5 +1,7 @@
 module pulse.mainloopapi;
 
+version(linux):
+
 import core.sys.posix.sys.time;
 
 extern (C):

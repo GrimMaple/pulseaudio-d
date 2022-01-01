@@ -1,5 +1,7 @@
 module pulse.utf8;
 
+version(linux):
+
 extern (C):
 
 /***
